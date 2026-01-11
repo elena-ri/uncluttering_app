@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uncluttering app</title>
+  <style>
+    /* Basic layout */
+    body {
+      font-family: LibreFranklin, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    #container {
+      max-width: 600px;
+      width: 80%;
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: justify;
+    }
+
+    #node-text {
+      font-size: 1em;
+      margin-bottom: 30px;
+      line-height: 1.4;
+    }
+
+    .small-text{
+      font-size: 0.8em;
+    }
+
+    .edge-button {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 12px;
+      font-family: LibreFranklin, sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: #007BFF;
+      color: white;
+      transition: background-color 0.2s;
+    }
+
+    .back-button {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 12px;
+      font-family: LibreFranklin, sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: #AAAAAA;
+      color: white;
+      transition: background-color 0.2s;
+    }
+
+    .restart-button {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 12px;
+      font-family: LibreFranklin, sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: #CCCCCC;
+      color: white;
+      transition: background-color 0.2s;
+    }
+
+    .edge-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Optional: End-of-path message */
+    #end-message {
+      font-style: italic;
+      color: #555;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <!-- Node text will appear here -->
+    <div id="node-text">Loading...</div>
+
+    <!-- Buttons for outgoing edges will appear here -->
+    <div id="edge-buttons"></div>
+
+    <!-- Optional end-of-path message -->
+    <div id="end-message" style="display: none;">End of path.</div>
+  </div>
+
+  <!-- Graph data -->
+  <script src="./input/general/graph.js"></script>
+
+  <!-- Main app JS -->
+  <script src="./app.js"></script>
+
+</body>
+</html>
