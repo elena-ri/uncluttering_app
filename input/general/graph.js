@@ -1,17 +1,17 @@
 const graphData = {
   "nodes": {
     "START": "<h3>Welcome!</h3>This little app here will help you unclutter your home! We'll guide you through a set of questions to support you in figuring out what to do about all the stuff that's creating messes around your home.<br><br>If this is your first time here or you have some questions, you can review the instructions before you begin.<br><br>Or just pick up an item that's bothering you and head over to the first question.",
-    "FIRST_QUESTION": "Does this item <b>belong to you</b> or to <b>someone else</b>?",
+    "FIRST_QUESTION": "Does this item <b>belong to you</b> or to <b>someone else?</b>",
     "INSTRUCTIONS": "<h3>Okay, so here's the general idea.</h3>This app is designed to helo you unclutter your home. You will find out which of your belongings you'll want keep (but maybe store in a different space) or what you'll want to let go of. We won't pressure you to prematurely get rid of stuff if you don't feel great about it. You get to decide! BUT: You get to come to a decision in a structured way, and my biggest hope is that you'll truly feel great about finally making a choice. The clarity and relief it can bring is just profound.<h3>Preparations</h3>If you just want to try out the app, don't worry about this, just begin by picking up one item and answer the first questions about it.<br><br>But if you notice you like this app, here's an idea for how to set up your decluttering process.<h4>Sorting boxes</h4>Imagine a random shelf or drawer at your home. If you're like me, there's an assortment of different items: Here's your favorite pullover with a hole that needs to be mended. There's some empty batteries you want to bring to recycling. There's a bunch of greeting cards that you're not sure you'll ever use (but they were a gift from grandma). And so on.<br><br>If you take a bird's eye view you can assign any item you possess to one of these three categories:<ul><li>Stuff you want to keep</li><li>Stuff you want to get rid of</li><li>Stuff where you don't know yet if you want to keep or get rid of it</li></ul>There are sub-categories, of course. So let's look at the three items on your shelf:<ul><li>The pullover is <i>an item you want to keep but that needs to be fixed</i>.</li><li>The empty batteries are <i>items you want to get rid of and they need to be brought to recycling</i>.</li><li>The greeting cards are <i>an item that you're conflicted about</i>.</li></ul>So, the basic idea is to set up spaces for each category that you can easily sort these items into. A \"space\" can be a box, a bag, a shelf or a drawer for example.<br><br>Below is the list of categories that I set up spaces for. For some, I have these spaces permanently and will put items into them when I notice they should be in there. For example, I have a drawer for clothes that need to be mended. For others I just create a space when I begin de-cluttering.<ul>Stuff that I want to keep:<li><b>To Do:</b> There's something I need to do about this item, for example fixing or cleaning it</li><li><b>Memories:</b> I want to keep it because it means something to me, but I don't want to see it every day</li></ul><li>Stuff that I don't want to keep:</li><ul><li><b>Donate or gift:</b> Things that I don't use but other people could still use</li><li><b>Trash or recycle:</b> Stuff that I don't want to keep and nobody else could/should use</li></ul><li>Stuff that I'm unsure about</li><ul><li><b>Inbox:</b> All the stuff that I have floating around that I need to run through this questionnaire</li><li><b>Test:</b> Some things that I need to try out before I can make a decision</li><li><b>Trial period:</b> All the things that I'm not sure I want to keep but have a hard time letting go of. I put them in there, then review this box periodically.</li></ul></ul>So that my set-up and the way this app is structured, but feel absolutely free to adapt this to your own needs.<h4>To Do Lists</h4>Very likely you'll run into a lot of tasks when uncluttering your home. The empty bottles need to be brought to recycling. The filthy water kettle needs to be cleaned. You need to research if you can fix the broken handle of your favorite cup.<br><br>My best practice is to not do each task whenever I run into it, but to note down the task on a to do list, place the item in a box/place in the meantime. Then go through the tasks in batches. For example: Collect all the items you want to bring to a charity shop in a box, then bring all of them away at once. Or make a list of all the emails you need to send and then write them all in one session.<br><br>You can do the to do list on a piece of paper or a digital application for managing to dos. Whatever you prefer.",
     "A": "Is there <b>any task</b> connected to this item? <br><br><details><summary>What do you mean by that?</summary>For example:<ul><li>It's a part of a project you're working on, for example the newly bought thread for a sewing project or some papers for doing the taxes).</li><li>It's a broken lightbulb that you have lying around as a reminder to get a new one.</li></ul></details>",
     "B": "<b>What is the task?</b> What needs to be done about this item?<br><br> Spell it out using your words: think it through, say it out loud (to yourself or someone else) or write it down.",
     "C": "Are you <b>*really* sure</b> that you want to do this task?",
     "D": "Do you think it is <b>over 50 %</b> (or even over 75 %) <b>likely</b> that you will actually do the thing?",
-    "E": "<b>What are the issues</b>? Please spell it out in your own words, potentially tell it so. else or write it down. [more content to come]",
-    "F": "Have you <b>used it in the past 3 (or 6 or 12) months</b>? You get to decide which time frame to consider!<details><summary>What I think constitutes \"using an item\": </summary>Generally, if you touched it with your hands and at least began doing something with it, then I'd say you have used it.<br><br>Doesn't matter if it was for it's intended purpose or not. (I don't care if you you used an old bedsheet that doesn't fit your mattress anymore to build a fortress). The fact is, you have held it in your hands and done something with it.<br><br>Though if I think about, I'd count decoration in, too. The images you have hanging on your walls and that you can look at regularly are in use, too.</details>",
+    "E": "<b>What are the issues?</b> Please spell it out in your own words, potentially tell it so. else or write it down. [more content to come]",
+    "F": "Have you <b>used it in the past 3 (or 6 or 12) months?</b> You get to decide which time frame to consider!<details><summary>What I think constitutes \"using an item\": </summary>Generally, if you touched it with your hands and at least began doing something with it, then I'd say you have used it.<br><br>Doesn't matter if it was for it's intended purpose or not. (I don't care if you you used an old bedsheet that doesn't fit your mattress anymore to build a fortress). The fact is, you have held it in your hands and done something with it.<br><br>Though if I think about, I'd count decoration in, too. The images you have hanging on your walls and that you can look at regularly are in use, too.</details>",
     "G": "Do you have really good reasons to think that you will <b>use it in the next X* months?</b><br><br><b>What</b> will you use it for? <b>When?</b><br><br>If you want to get crystal clear about this, really spell the reasons out: say it out loud, write it down, talk to someone about it, ...<br><br><details><summary>More information</summary>*You get to decide which time frame to consider. 12 months is a good default value, but here's some more thoughts about it<br><br>Maybe you have winter gear that you can't even use yearly because of the climate you live in. But on the first of the very rare days of snow you'll be out and using it.<br><br>On the other hand, there might be items that you might want to get rid of if even if you would use them in a shorter timeframe than 12 months from now. Maybe you have some packaged food that you'd only eat if you were starving. It has a short storage life. If you know that you friend loves it, though, you could just give it to them now.<br><br>Also, there's items that you'll only need in case of emergency, please don't get rid of them without thinking it through!</details>",
-    "H": "Is it in good <b>shape and condition</b>? For example, what about cleanliness, battery life or storage life? Any holes or tears?<br><br>We have already considered items that were broken in a way that prevented you from using it. But here you might want to consider items that might be partially broken.",
-    "I": "What are the <b>conditions</b>? Spell it out!<br><br>Is it <b>realistic</b> that they happen?",
+    "H": "Is it in good <b>shape and condition?</b> For example, what about cleanliness, battery life or storage life? Any holes or tears?<br><br>We have already considered items that were broken in a way that prevented you from using it. But here you might want to consider items that might be partially broken.",
+    "I": "What are the <b>conditions?</b> Spell it out!<br><br>Is it <b>realistic</b> that they happen?",
     "J": "This item qualifies to <b>put into the testing box</b> or space. It's for stuff that you need to test run before coming to a decision. <br><br>Maybe there's a kitchen appliance that you're not sure does what you want it to or a hair accessory that you're not sure you like.<br><br>You can try it again at a a later time, then decide what to do.",
     "K": "So this kind of a <b>replacement or back-up item</b>. We're now guiding you over to a section that's for the cases when you have several items.",
     "L": "If you didn't own this item, how much money would you be <b>willing to invest</b> in order to obtain it? How much time and effort?",
@@ -27,12 +27,12 @@ const graphData = {
     "P3": "Add date to your calendar, then continue",
     "R": "<b>How much time</b> would you be willing to invest in this task right?<br><br>Can you <b>realistically complete the task</b> now in this timeframe?<br><details><summary>Further explanation</summary>So there's two options here.<br><br> You can either go <b>deep</b>, i.e. you pick up one item, then do everything that needs to be done about it, then pick up the next item. The risk is that you might get lost in only one task, while your home is still a mess.<br><br>Or you can go <b>wide</b>: You pick up one item, decide what needs to be done about it, put the task on a todo list, figure out where to put it for now, then pick up the next item. You go through more items quicker and clear messes faster, but you also have to pick things up later.</details>",
     "S": "Get it done!",
-    "T": "What about it <b>feels challenging</b>?",
+    "T": "What about it <b>feels challenging?</b>",
     "U": "What <b>kind of feelings</b> do you expect? Spell it out.",
     "V": "Here are some <b>questions to help</b> you make this easier on you:<ul><li>Is there a way you can prepare yourself emotionally for doing this task?</li><li>What kind of headspace would you have to be in?</li><li>Can you figure out a better time and space to this?</li><li>Do you want someone to support you before/during/after?</li><li>Can you break it down in smaller chunks and allow for breaks in-between (breaks can also take several hours, days or weeks)?</li></ul>",
     "W": "Why not?",
     "X": "Put these tasks on your todo list.<br><br>Now we need to figure out where to put this item in the meantime.",
-    "Y": "Great! You've already figured out that you'll keep the item (for now). Let's figure out the best way and place to store it<br><br>Is this item <b>currently stored in a container?</b> A box, a bag, a small drawer, a pencil holder, ...? In a best case scenario this container groups similar items together. This can be a great way to create more structure and less messes in your home.",
+    "Y": "Great! You've already figured out that you'll keep the item (for now). That's a big step! Now, let's figure out the best way and place to store it.<br><br>Is this item <b>currently stored in a container?</b><br><br>A container could be anything like a box, a bag, a small drawer, a jar, a pencil holder, ...<br><br>In a best case scenario this container groups similar items together. This can be a great way to create more structure and less messes in your home.",
     "Z": "Are there <b>other reasons</b> to keep this thing?",
     "AA": "Do you think <b>someone else</b> could still use this item?",
     "AB": "Do you think you could <b>sell it for a price that is worth the effort</b> you need to put in to selling it?",
@@ -43,13 +43,13 @@ const graphData = {
     "AG": "Are there <b>any preparations</b> needed before discarding it?<br><br>For example, you might have to scrape personal information or disassemble parts that need to be recycled separately.",
     "AH": "<b>Do some research</b> or ask around until you find a satisfying answer.<ul><li>You can start with a simple internet search and see if you find a solution.</li><li>If not, figure who's responsible for collecting trash in the place you live, look up their website for information or write/call them.</li></ul>",
     "AI": "<b>What are the reasons?</b>",
-    "AN": "Do you <b>like it</b>? Do you like it's look and function?",
+    "AN": "Do you <b>like it?</b> Do you like it's look and function?",
     "AO": "Do you have <b>several</b> of these items? Either the same or similar one's?<details><summary>Some thoughts about what I would count as \"same\" or \"similar\"</summary>I would mostly look at the purpose of an item. Let's say you're holding a coffee or tea mug. I would probably consider all other cups or mugs as being the same item, even if they have a different colour or size. Everything that serves the purpose of containing hot beverages for drinking belongs in this category. But I would probably not count in insulated to do cup because it's a slightly different purpose.<br><br>Sometimes the way you group things together also depends on your skill level and expertise. For exmaple, if you're a painter, you might have a more granular idea of what counts as the same or different type of brush, than the regular person.</details?>",
     "AP": "Is there a good reason to <b>keep all of them</b> (e.g. as a replacement or as stock?",
     "AQ": "So, do you <b>feel good about keeping</b> this item?",
-    "AR": "For now, let's really just focus on <i>availability</i> of this item, not about how you <i>feel</i> about letting it go.<br><br>Could you <b>easily get the same item again</b>? Or at least a similar one? Just in case your decision to get rid of it turns out to be wrong? <details><summary>What do I mean by \"easily\"?</summary>Easily could mean that you know where to get the same or a similar item, it's usually available in that place, the cost feels affordable to you, the effort seems reasonable.</details>",
+    "AR": "For now, let's really just focus on <i>availability</i> of this item, not about how you <i>feel</i> about potentially letting it go.<br><br>Could you <b>easily get the same item again?</b> Or at least a similar one? Just in case your decision to get rid of it turns out to be wrong? <details><summary>What do I mean by \"easily\"?</summary>Easily could mean that<ul><li>you know where to get the same or a similar item,</li><li>it's usually available in that place,</li><li>the cost feels affordable to you,</li><li>the effort to obtain it seems reasonable to you.</li></ul></details>",
     "AO1": "This is a new entry for your to do list: Get more items like this one.",
-    "AQ1": "Before we consider where to put this item, is there anything you can do to <b>improve this items life span</b>? For example, remove the batteries so they don't leak or put it in a protective case so that it doesn't scratch easily.",
+    "AQ1": "Before we consider where to put this item, is there anything you can do to <b>improve this items life span?</b> For example, remove the batteries so they don't leak or put it in a protective case so that it doesn't scratch easily.",
     "AS": "Does it <b>affect you enough</b> that you would be willing to invest effort, time and money into improving it?",
     "AT": "Is it <b>possible to improve</b> this item? [all the choices after this are very much unfinished]",
     "AU": "Get it done!",
@@ -60,21 +60,22 @@ const graphData = {
     "BA": "Okay, so you landed here because you either have an item that's broken beyond repair. Or there are other issues around its conditions that you dislike but that cannot be improved.<br><br>Do you want or need to <b>find a replacement</b> for this item?",
     "BB": "This is a new entry for you to do list: Look to get a replacement for this item.",
     "BC": "If you <b>can't fix it or improve it</b>, then you have two options:",
-    "BD": "Do you want to <b>try and fix it</b>? Are you ready to invest the time and money needed?",
-    "BE": "Okay, so <b>what steps</b> need to be done in order to fix it or figure out whether it can be fixed?<br><br>You now have some new entries for your to do list! And o, technically, you now have one or more tasks attached to this item.",
+    "BD": "Do you want to <b>try and fix it?</b> Are you ready to invest the time and money needed?",
+    "BE": "Okay, so <b>what steps</b> need to be done in order to fix it or figure out whether it can be fixed?<br><br>You now have some new entries for your to do list! And technically, you now have one or more tasks attached to this item.",
     "BG": "Here are some ideas what you could do:<ul><li>Make a pro and con list until you have a decision.</li></ul>",
     "BH": "<b>Do some research</b> or ask someone else until you come up with an answer.",
-    "BI": "How do you <b>feel about letting this item go</b>? (We'll decide later what to do about it, i.e. donate it, sell it or discard it.)",
-    "BJ": "What are the <b>reasons</b>?",
-    "BR": "BR",
+    "BI": "How do you <b>feel about letting this item go?</b> (We'll decide later what to do about it, i.e. donate it, sell it or discard it.)",
+    "BJ": "What are the <b>reasons?</b>",
+    "BR": "Okay, here's your permission to put it in a <b>box for a trial period</b>: put today’s date on the item, put another date on it when you will pick it up again and figure what to do then.",
+    "BI1": "Did you already run through a check of its condition?",
     "BK": "BK",
     "BL": "Some prompts to consider<ul><li>Why do you have a hard time letting it go?</li><li>Can you spot some sort of underlying need?</li><li>What does this item mean to you?</li><li>Which memories are connected to it?</li><li>What is something you don’t want to forget about [this thing, this time in your life]?</li></ul>If you feel lost about figuring this out, it might also be a good idea to write the answers to these questions down. You could also decide to table the decision for now and return it at a later time.",
     "BM": "Is there any way you could <b>keep that memory</b> but not the item? Or at least not the whole item?<details><summary>Here are some ideas what you could do</summary>Take a picture, write about it, keep a piece of it, create sth. new from it.</details>",
     "BN": "BN",
-    "BO": "BO",
+    "BO": "So, the situation we're facing is this: There's pros and cons to you keeping this item and we need to figure out what to do. We want to make sure you come to a decision that feels really good to you, because getting rid of it prematurely might mean you can never get the same item again.<br><br>Maybe let's just take a mental journey.<ul><li>Imagine you're giving this item away, maybe you're putting it into trash, giving it to a friend or to a charity shop.</li><li>Imagine that a year passes. Do you think you'll even remember that you've owned this item?</li><li>If yes, imagine you're regretting giving it away. How would this make you feel? How severe would the regret be on a scale from 1-10?</li><li>What could you do if you notice that not having this item really affects you? (Hint: One way to deal with regret is to try and revert a decision that turned out to be wrong. In this case, this could mean trying to figure out ways to get this exact or a similar item back. Another way to deal with regret is to be sad about missing something, feel the pain of having made a mistake, sit with all of these feelings until they subside, see what they have taught you about being human.)</ul>So, it's one or five or ten years from now. Would you wish your former self had kept or tossed this item? Remember your answer then head over to the next question.",
     "BP": "<b>Do some research</b> until you come up with an answer that you find satisfying.",
     "BQ": "In all honesty, we're now leading you to the question that you would have also landed at, if you said you'd be willing to invest more money, time and effort. But please keep in mind that <b>you choose to not invest much</b>.",
-    "Y1": "Do you have <b>several containers</b> that hold similar items? Would you want to <b>merge them</b>?",
+    "Y1": "Do you have <b>several containers</b> that hold similar items? Would you want to <b>merge them?</b>",
     "Y2": "If necessary, find a better container that can hold all of the items. Then do the merge! Put all the items in the new container.",
     "Y3": "Does this item or its container have a <b>designated spot</b> where you usually keep it?",
     "Y4": "Okay, so if this item is not yet in its designated spot, please put it there. And now you're done here!",
@@ -83,17 +84,17 @@ const graphData = {
     "Y31": "Do you <b>feel good about keeping it in the place</b> you found it when starting with the first question?",
     "Y5": "Is this container <b>over or under its holding capacity</b> in a way that bugs you?<br><br>Is it way to big and it bugs you that it takes up too much space? Or is overflowing and maybe you can't properly close it and/or don't find anything in there? Have you worried it'll break down because it carries too much weight?",
     "Y6": "Find a <b>better container</b> and put all the items in there.",
-    "Y7": "Do you <b>already have a container of similar items</b> that you could just put it into?",
-    "Y8": "Does it have enough space for you to put the new item in?",
-    "Y10": "Alright, put the item in there?",
-    "Y9": "Y9",
+    "Y7": "What would be items that are similar to the one you have here? What's sort of a broader category that this item would belong to?<details><summary>Give me some examples.</summary>Let's say you're holding a pan right now. Do you have other pans? If not, a broader category would be cookware or even just cooking utensils.<br><br>Or, let's say you're holding a washcloth right now. See if you have more washcloths. If not, the broader category would be bathroom textiles, so you could group it together with towels or bathmats.</details>Do you <b>already have a container of similar items</b> that you could just put it into? Or a container of items in the same category?",
+    "Y8": "Does it have enough space for the new item?",
+    "Y10": "Alright, put the item in there!",
+    "Y9": "Okay, your job now is to: <ul><li>get an overview of which similar items you possess that you might want to store together in one container</li><li>figure it which container these items might fit in</li><li>put the items inside</li></ul>",
     "BW": "So now we're on to the task of <b>doing necessary preparations</b> for trashing/recycling this item.",
     "BX": "If you're done with the preparations, now <b>it's time trash or recycle</b> this item. Either put it in the trash/recycling box (if you need to go someplace else for this) or throw it away right away.",
     "BY": "There's two ways how you might have landed here: <br><br>Either you said that you don't think other people can use it anymore. So if you don't want to keep it and you don't think anyone else will like it - then I don't see any other reasonable option. <br><br>Or you landed here because you don't want to put in the effort needed to donate it. In that case, that option is gone, too.<br><br> Think about <b>how much better you will feel</b> if you are free of this item.",
     "BZ": "<b>Do some thorough research</b> what you can do about it. Look at all the options, then decide what to do. If necessary, go back a few steps or restart the process to land at a different outcome.",
     "CA": "Is the amount of time you invest into figuring out what to do/how to avoid letting it go even worth this item? How would you feel if you just made a decision now? Do you honestly think you'll even remember this item/that you threw it away in 4 weeks?",
     "CB": "CB",
-    "CC": "Do you want to <b>keep this item until you replace it</b>?",
+    "CC": "Do you want to <b>keep this item until you replace it?</b>",
     "BF": "BF",
     "CD": "For the latter part: Let's look at the size and the material of the object. How much would this add to a trash pile really? Also, you kinda need to <i>exist</i> as a human. Every living being creates waste, even animals. That's a very core part of a metabolism. It's shitty that you depend on materials that are often not fully natural and cannot just peacefully decompose in a forest but you're also not responsible for industrialisation<br><br>If these words don't help to soothe your guilt there might be a deeper emotional problem that you might address through other paths.",
     "CE": "Look into sunk cost bias. [will add more information!]",
@@ -101,7 +102,7 @@ const graphData = {
     "CG": "CG",
     "CH": "It's only a gift if you're free to do with it what you want. If not it is a sort of test or demand or even blackmail. It is as if the other person would implicitly say: \"I give you this item and you must now keep it as a show for your love for me and if you don't I'll know you don't love me and will be very hurt\".<br><br>I could still be that you feel bad about giving a gift away, even if the other person wouldn't be mad about it. Maybe it was a gift they hand-crafted for you and you feel so sad to know that their effort didn't land with you.<br><br>Imagine giving this item away, would these bad feelings still haunt you in a month or a year? Would you even remember?",
     "CI": "Do this.",
-    "CJ": "Okay, so do you feel <b>ready to let it go now</b>?",
+    "CJ": "Okay, so do you feel <b>ready to let it go now?</b>",
     "CK": "Okay, no hurries. Pay attention to what's going on for you. Take your time, take some deep breaths, feel all the feelings. There's <b>no pressure</b> you to do anything you don't feel ready for.",
     "CL": "I'm just asking really gently: Do you feel ready to let it go now?",
     "CM": "Would you be willing to <b>put it in a special memory place or box</b> that's designed to hold items that are important to you? Or do you <b>want it displayed</b> somewhere around your home?",
@@ -533,7 +534,7 @@ const graphData = {
     {
       "from": "BE",
       "to": "IS_THIS_THE_END",
-      "label": "Or you could just end here for now"
+      "label": "If it fits and makes sense to you: Put this item into the TODO box or space. Then you're done with this item for now."
     },
     {
       "from": "BD",
@@ -608,12 +609,22 @@ const graphData = {
     {
       "from": "BI",
       "to": "BR",
-      "label": "Not great at all, I want to postpone the decision."
+      "label": "I want to postpone the decision."
     },
     {
       "from": "BI",
+      "to": "BI1",
+      "label": "I think there's really good reasons to keep this item."
+    },
+    {
+      "from": "BI1",
+      "to": "Y",
+      "label": "Yes/Not necessary"
+    },
+    {
+      "from": "BI1",
       "to": "H",
-      "label": "I think, there's really good reasons to keep this item."
+      "label": "No, and I want to."
     },
     {
       "from": "AR",
@@ -638,7 +649,12 @@ const graphData = {
     {
       "from": "AR",
       "to": "BO",
-      "label": "No, because it's too unique, e.g. something that's antigue, custom-made for you, a rare model, ... [link missing]"
+      "label": "No, because it's too unique, e.g. something that's antique, custom-made for you, a rare model, ..."
+    },
+    {
+      "from": "BO",
+      "to": "BI",
+      "label": "Next"
     },
     {
       "from": "AR",
@@ -703,7 +719,7 @@ const graphData = {
     {
       "from": "Y3",
       "to": "Y4",
-      "label": "Yes"
+      "label": "Yes and it makes sense to keep it there."
     },
     {
       "from": "Y4",
@@ -771,7 +787,12 @@ const graphData = {
       "label": "Yes"
     },
     {
-      "from": "Y9",
+      "from": "Y10",
+      "to": "Y3",
+      "label": "Next"
+    },
+    {
+      "from": "Y8",
       "to": "Y6",
       "label": "No"
     },
@@ -907,8 +928,8 @@ const graphData = {
     },
     {
       "from": "BC",
-      "to": "AA",
-      "label": "Figure out how to get rid of it"
+      "to": "AR",
+      "label": "Figure out if you're ready to part ways."
     },
     {
       "from": "BF",
